@@ -1,0 +1,152 @@
+head {
+    display: none;
+}
+
+*{
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background: linear-gradient(135deg, #24E1FF 0%, #006BFF 68%, #4B00FF 100%);
+    font-size: 30px;
+}
+
+.header {
+    flex-direction: row;
+}
+
+#photo1 {
+    width: 33%;
+    background-color: white;
+    border: 5px solid gold;
+    border-radius: 10%;
+    padding: 5% 5% 5% 5%;
+}
+
+#pageTitle {
+    width: 83%;
+    align-items: left;
+    justify-content: center;
+    margin-left: 2%;
+    background-color: white;
+    border: 5px solid gold;
+    border-radius: 10%;
+    padding: 5% 5% 5% 5%;
+}
+
+#AboutMe {
+    background-color: white;
+    border: 5px solid gold;
+    border-radius: 10%;
+    padding: 5% 5% 5% 5%;
+    margin-bottom: 1%;
+}
+
+#Education {
+    background-color: white;
+    border: 5px solid gold;
+    border-radius: 10%;
+    padding: 5% 5% 5% 5%;
+    margin-bottom: 1%;
+}
+
+#workExperience {
+    background-color: white;
+    border: 5px solid gold;
+    border-radius: 10%;
+    padding: 5% 5% 5% 5%;
+    margin-bottom: 1%;
+}
+
+#Projects {
+    background-color: white;
+    border: 5px solid gold;
+    border-radius: 10%;
+    padding: 5% 5% 5% 5%;
+    margin-bottom: 1%;
+}
+
+#SelfLearning {
+    background-color: white;
+    border: 5px solid gold;
+    border-radius: 10%;
+    padding: 5% 5% 5% 5%;
+}
+
+@media screen and (max-width: 600px), (max-height: 500px){
+    head {
+        display: none;
+    }
+    
+    *{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    body {
+        background: linear-gradient(135deg, #24E1FF 0%, #006BFF 68%, #4B00FF 100%);
+        font-size: 30px;
+    }
+    
+    .header {
+        flex-direction: row;
+    }
+    
+    #photo1 {
+        width: 33%;
+        background-color: white;
+        border: 5px solid gold;
+        border-radius: 10%;
+        padding: 5% 5% 5% 5%;
+    }
+    
+    #pageTitle {
+        width: 83%;
+        align-items: left;
+        justify-content: center;
+        margin-left: 2%;
+        background-color: white;
+        border: 5px solid gold;
+        border-radius: 10%;
+        padding: 5% 5% 5% 5%;
+    }
+    
+    #AboutMe {
+        background-color: white;
+        border: 5px solid gold;
+        border-radius: 10%;
+        padding: 5% 5% 5% 5%;
+        margin-bottom: 1%;
+    }
+    
+    #Education {
+        background-color: white;
+        border: 5px solid gold;
+        border-radius: 10%;
+        padding: 5% 5% 5% 5%;
+        margin-bottom: 1%;
+    }
+    
+    #workExperience {
+        background-color: white;
+        border: 5px solid gold;
+        border-radius: 10%;
+        padding: 5% 5% 5% 5%;
+    }
+    
+    #Projects {
+        background-color: white;
+        border: 5px solid gold;
+        border-radius: 10%;
+        padding: 5% 5% 5% 5%;
+        margin-bottom: 1%;
+    }
+    
+    #SelfLearning {
+        background-color: white;
+        border: 5px solid gold;
+        border-radius: 10%;
+        padding: 5% 5% 5% 5%;
+    }
+}
