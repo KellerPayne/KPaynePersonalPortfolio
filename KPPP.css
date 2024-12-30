@@ -14,6 +14,10 @@ body {
     font-size: 30px;
 }
 
+ul {
+    list-style-type: disk;
+}
+
 .header {
     flex-direction: row;
 }
@@ -52,7 +56,6 @@ body {
     border-radius: 10%;
     padding: 5% 5% 5% 5%;
     margin-bottom: 1%;
-    list-style-type: disk;
 }
 
 #workExperience {
@@ -61,7 +64,6 @@ body {
     border-radius: 10%;
     padding: 5% 5% 5% 5%;
     margin-bottom: 1%;
-    list-style-type: disk;
 }
 
 #Projects {
@@ -70,7 +72,6 @@ body {
     border-radius: 10%;
     padding: 5% 5% 5% 5%;
     margin-bottom: 1%;
-    list-style-type: disk;
 }
 
 #SelfLearning {
@@ -78,7 +79,6 @@ body {
     border: 5px solid gold;
     border-radius: 10%;
     padding: 5% 5% 5% 5%;
-    list-style-type: disk;
 }
 
 @media screen and (max-width: 600px), (max-height: 500px){
