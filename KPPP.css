@@ -5,6 +5,8 @@ head {
 *{
     display: flex;
     flex-direction: column;
+    column-span: 100%;
+    border-radius: 20px;
 }
 
 body {
