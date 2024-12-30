@@ -85,11 +85,14 @@ body {
     *{
         display: flex;
         flex-direction: column;
+        column-span: 100%;
+        border-radius: 10px;
     }
     
     body {
         background: linear-gradient(135deg, #24E1FF 0%, #006BFF 68%, #4B00FF 100%);
         font-size: 30px;
+
     }
     
     #photo1 {
