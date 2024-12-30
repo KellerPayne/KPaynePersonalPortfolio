@@ -17,7 +17,8 @@ body {
 }
 
 #photo1 {
-    width: 100%;
+    width: 35%;
+    height: auto;
     background-color: white;
     border: 5px solid gold;
     border-radius: 10%;
