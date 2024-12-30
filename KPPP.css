@@ -18,6 +18,11 @@ ul {
     list-style-type: disk;
 }
 
+li::marker {
+    color: blue;
+    font-size: 10px;
+}
+
 .header {
     flex-direction: row;
 }
